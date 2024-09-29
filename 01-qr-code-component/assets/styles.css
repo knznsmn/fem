@@ -1,6 +1,7 @@
 :root {
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
+  --slate-100: hsl(216, 100%, 61%);
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 84%);
   --slate-900: hsl(218, 44%, 22%);
@@ -15,13 +16,13 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: linear-gradient(45deg, var(--slate-900), var(--slate-500));
+  background-color: var(--slate-300);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   color: --var(slate-500);
 }
 
@@ -39,4 +40,32 @@ img {
   border-radius: 1rem;
 }
 
+h3, p, div {
+  width: 90%;
+  margin: 1rem;
+  text-align: center;
+}
+p, div {
+  color: var(--slate-900);
+  opacity: .6;
+}
 
+div {
+  font-size: smaller;
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--slate-100)
+}
+a:visited {
+  color: var(--slate-900);
+  opacity: .5;
+}
+a:hover {
+  color: var(--slate-900);
+}
+a:active {
+  color:var(--slate-100);
+  opacity: .9;
+  }
