@@ -2,15 +2,21 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: content-box;
-	font-size: 14px;
 }
 body {
 	width: 100wv;
-	padding: 1rem;
+	font-size: 14px;
+	padding: 2rem;
+	font-family: "Young Serif", serif;
 }
 
 img {
 	width: 100%;
+}
+
+.highlight {
+	background-color: lightpink;
+	margin: 1rem;
 }
 
 .attribution {
