@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --hue-vert: hsl(75, 94%, 57%);
   --hue-blan: hsl(0, 0%, 100%);
@@ -75,6 +77,7 @@ textarea:not([rows]) {
 body {
   padding: 1rem;
   color: var(--hue-blan);
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   background: var(--hue-g900);
   text-align: center;
@@ -106,7 +109,7 @@ h1 {
 }
 p {
   color: var(--hue-vert);
-  font-weight: 500;
+  font-weight: 400;
 }
 blockquote {
   opacity: .8;
@@ -116,7 +119,7 @@ button {
   margin: .5rem;
   padding: 1rem;
   border: none;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: .5rem;
   background: var(--hue-g700);
 }
