@@ -11,7 +11,7 @@
   --hue-noire: hsl(0, 0%, 7%);
 }
 
-/* Reset */
+/* Resets */
 *,
 *::before,
 *::after {
@@ -37,13 +37,6 @@ ol[role='list'] {
 body {
   min-height: 100vh;
   line-height: 1.5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-  font-family: "Figtree", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
 }
 
 h1, h2, h3, h4,
@@ -81,10 +74,19 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+/* Styling */
 html {
   background: var(--hue-jaune);
 }
-
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  font-family: "Figtree", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
 article {
   margin: 1rem auto;
   background: var(--hue-blanc);
@@ -102,6 +104,19 @@ section > img {
 section:nth-child(1) p {
   font-size: smaller;
 }
+section > footer {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+footer > img {
+  width: 2.5rem;
+}
+footer > p {
+  margin: 1rem;
+  font-weight: 800;
+}
+
 button {
   font-weight: bold;
   font-size: small;
@@ -113,18 +128,13 @@ button {
 }
 h1 {
   font-size: 1.2rem;
+  font-weight: 800;
 }
-section > footer {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
+p {
+  font-size: .9rem;
+  font-weight: 400;
 }
-footer > img {
-  width: 2.5rem;
-}
-footer > p {
-  margin: 1rem;
-}
+
 
 @media (width > 22.5rem) {
   body {
