@@ -1,3 +1,10 @@
+:root {
+  --hue-vert: hsl(75, 94%, 57%);
+  --hue-blan: hsl(0, 0%, 100%);
+  --hue-g700: hsl(0, 0%, 20%);
+  --hue-g800: hsl(0, 0%, 12%);
+  --hue-g900: hsl(0, 0%, 8%);
+}
 
 /* Resets */
 *,
@@ -65,3 +72,51 @@ textarea:not([rows]) {
 
 /* General Styling */
 
+body {
+  padding: 1rem;
+  color: var(--hue-blan);
+  font-size: 14px;
+  background: var(--hue-g900);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  margin: 1rem auto;
+  max-width: 22.5rem;
+  background: var(--hue-g800);
+  border-radius: 1rem;
+}
+section {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+figure {
+  margin: 0 auto;
+  width: 25%;
+}
+img {
+  border-radius: 50%;
+}
+h1 {
+  font-size: 1.5rem;
+}
+p {
+  color: var(--hue-vert);
+  font-weight: 500;
+}
+blockquote {
+  opacity: .8;
+}
+button {
+  color: var(--hue-blan);
+  margin: .5rem;
+  padding: 1rem;
+  border: none;
+  font-weight: 500;
+  border-radius: .5rem;
+  background: var(--hue-g700);
+}
