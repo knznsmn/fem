@@ -114,7 +114,7 @@ p {
 blockquote {
   opacity: .8;
 }
-button {
+.button {
   color: var(--hue-blan);
   margin: .5rem;
   padding: 1rem;
@@ -124,7 +124,7 @@ button {
   background: var(--hue-g700);
 }
 
-button:hover {
+.button:hover {
   color: var(--hue-g900);
   background: var(--hue-vert);
 }
