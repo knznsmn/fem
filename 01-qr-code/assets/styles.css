@@ -7,11 +7,7 @@
   --slate-900: hsl(218, 44%, 22%);
 
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 /* Reset */
 *,
 *::before,
@@ -78,8 +74,8 @@ textarea:not([rows]) {
 /* Styling */
 
 body {
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 1rem;
   background-color: var(--slate-300);
   display: flex;
   justify-content: center;
@@ -91,7 +87,7 @@ body {
 }
 
 main {
-  width: 375px;
+  max-width: 22.5rem;
   padding: 1rem;
   background-color: var(--white);
   border-radius: 1rem;
@@ -104,10 +100,13 @@ img {
   border-radius: 1rem;
 }
 
-h3, p, div {
+h1, p, div {
   width: 90%;
   margin: 1rem;
   text-align: center;
+}
+h1 {
+  font-size: 1.2rem;
 }
 p, div {
   color: var(--slate-900);
