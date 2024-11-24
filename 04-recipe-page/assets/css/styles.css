@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('../fonts/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
   /* Hues */
   --hue-white: hsl(0, 0%, 100%);
@@ -62,6 +77,8 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+/* General Styling */
 
 html {
 	background: var(--hue-stone-100);
