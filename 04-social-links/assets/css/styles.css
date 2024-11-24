@@ -120,3 +120,11 @@ button {
   border-radius: .5rem;
   background: var(--hue-g700);
 }
+
+button:hover {
+  color: var(--hue-g900);
+  background: var(--hue-vert);
+}
+a {
+  text-decoration: none;
+}
