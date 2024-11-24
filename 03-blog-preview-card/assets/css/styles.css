@@ -87,7 +87,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
 }
-article {
+main {
   margin: 1rem auto;
   background: var(--hue-blanc);
   border: .1rem solid var(--hue-noire);
@@ -97,14 +97,17 @@ article {
 section {
   margin: 1rem;
 }
-section > img {
-  border-radius: 1rem;
+section figure {
+  margin: 0 auto;
   width: 100%;
+}
+section figure img {
+  border-radius: 1rem;
 }
 section:nth-child(1) p {
   font-size: smaller;
 }
-section > footer {
+footer {
   display: flex;
   align-items: center;
   font-weight: bold;
